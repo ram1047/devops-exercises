@@ -1,0 +1,23 @@
+# Core dependencies (required)
+requests>=2.25.0
+python-dateutil>=2.8.0
+
+# Optional dependencies for enhanced functionality
+matplotlib>=3.3.0  # For plotting and chart generation
+plotly>=5.0.0      # For interactive visualizations
+networkx>=2.5      # For network graph layouts
+seaborn>=0.11.0    # For enhanced statistical plots
+pandas>=1.2.0      # For data manipulation (recommended)
+PyYAML>=5.4.0      # For YAML configuration support
+lxml>=4.6.0        # For XML parsing (PAN-OS API responses)
+
+# Development dependencies (optional)
+pytest>=6.0.0      # For testing
+pytest-cov>=2.10.0 # For test coverage
+black>=21.0.0      # For code formatting
+flake8>=3.8.0      # For linting
+mypy>=0.800        # For type checking
+
+# Documentation dependencies (optional)
+sphinx>=3.5.0      # For documentation generation
+sphinx-rtd-theme>=0.5.0  # For documentation theme
